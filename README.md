@@ -4,7 +4,7 @@ An access control project base on RC522, Arduino Nano, ESP8266 and SG90.
 # Chinese Version
 中文介绍与使用方法请看我的博客：http://mwhls.top/%e5%b8%a6%e8%81%94%e7%bd%91%e5%8a%9f%e8%83%bd%e7%9a%84rfid%e5%ae%bf%e8%88%8d%e9%97%a8%e7%a6%81
 
-更加详细，移动网打不开请看CSDN这里：https://blog.csdn.net/asd123pwj/category_10484364.html
+移动网打不开请看CSDN这里：https://blog.csdn.net/asd123pwj/category_10484364.html
 
 # Equipment
 Arduino Nano V3.0 * 1  
@@ -17,9 +17,16 @@ Dupont line
 Arduino 1.8.13
 
 ## Arduino Nano V3.0:  
-Board: Arduino Nano    Processor: ATmega328P(Old Bootloader)
+file: code/SG90ControlbyRc522andNodemcu.ino
+
+test file: test/TestRC522andSG90.ino
+
+Board: Arduino Nano    
+Processor: ATmega328P(Old Bootloader)
 
 ## NodeMCU Lua V3.0:  
+file: code/WebandI2CinNodeMCU.ino
+
 Board: NodeMCU V1.0
 
 # How can them do
