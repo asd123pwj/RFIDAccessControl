@@ -48,8 +48,8 @@ In the meanwhile, you can turn SG90 like that by connecting wifi ESP8266Web and 
 |D13	||	SCK (7)	||
 |3V3	||	3.3V (1)||	
 |GND	||	GND (3)||	
-|5V			|||5V(red)|
-|D8		|||	PWM信号(yellow)|
+|5V			|||5V (red)|
+|D8		|||	PWM (yellow)|
 ||GND		||GND (brown)|
 
 
