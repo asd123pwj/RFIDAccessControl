@@ -24,3 +24,16 @@ In the meanwhile, you can turn SG90 like that by connecting wifi ESP8266Web and 
 # CHINESE
 中文介绍与使用方法请看我的博客：http://mwhls.top/%e5%b8%a6%e8%81%94%e7%bd%91%e5%8a%9f%e8%83%bd%e7%9a%84rfid%e5%ae%bf%e8%88%8d%e9%97%a8%e7%a6%81
 更加详细，移动网打不开请看CSDN这里：https://blog.csdn.net/asd123pwj/category_10484364.html
+
+# Line Connect in Test:TestRC522andSG90
+|Nano	|SG90(color)|RC522(order)|
+|GND	|GND (brown)|------------|
+|5V	  |5V (red)   |------------|	
+|D8	  |PWM (yellow)|-----------|
+|D9		|-| RST (2)|
+|D10	|-| SDA (8)|
+|D11	|-| MOSI (6)|
+|D12	|-| MISO (5)|
+|D13	|-| SCK (7)|
+|3V3	|-| 3.3V (1)|
+|GND	|-| GND (3)|
